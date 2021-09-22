@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$USER_HOME$/Desktop/Php" />
+    </include_path>
+  </component>
+  <component name="PhpProjectServersManager">
+    <servers>
+      <server host="ftpupload.net" id="a53e9630-a0bc-4222-9255-84524239e9c6" name="NOTLOCALHOST" port="21" />
+    </servers>
+  </component>
+</project>

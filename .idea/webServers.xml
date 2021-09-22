@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="93d5d344-82a9-4131-b934-8bf43a47f80f" name="PPDGserveur" url="http://localhost">
+        <fileTransfer mountedRoot="C:\xampp\htdocs" accessType="MOUNT" port="0" />
+      </webServer>
+      <webServer id="b12b575d-b0e8-4941-9706-8969b325b616" name="PPDGServepizy" url="espetipasdugard.epizy.com">
+        <fileTransfer host="ftpupload.net" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
