@@ -6,6 +6,7 @@
 .BackgroundImageMoving
 {
     height: 1600px;
+    margin-bottom: 10%;
     background-size: auto;
     position: relative;
     background-repeat: no-repeat;
@@ -36,7 +37,7 @@
     position: relative;
     padding: 10px;
     color: transparent;
-    font-size: 150%;
+    font-size: 200%;
     font-family: "sans-serif", "Arial Black";
     text-align: center;
     animation-delay: 1s;
@@ -47,7 +48,7 @@
 
 .RightDonnee
 {
-    background: linear-gradient(to left, rgba(0, 0, 0, 0), #ff8800);
+    background: linear-gradient(to left, rgba(0, 0, 0, 0), #969ce6);
     position: relative;
     border: 10px solid #d0cdcd;
     border-radius: 10px;
@@ -72,7 +73,6 @@
 {
     display:  block;
     border-radius: 30px;
-    margin-top: 10%;
     height: 500px;
     width: 850px;
 }
@@ -82,7 +82,7 @@
     margin-top: 5%;
     line-height:80px;
     border-radius: 50%;
-        border:10px solid #cfdcec;
+        border:10px solid #969ce6;
     width: 40px;
     height: 40px;
     display:  inline-block;

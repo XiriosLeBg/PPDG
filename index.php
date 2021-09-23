@@ -7,11 +7,11 @@
 <html lang="en">
 <head >
     <link rel="stylesheet" href="Style.css">
-    <meta name="viewport" content="width=device-width,initial-scale=0.3,maximum-scale=0.3,user-scalable=no"/>
+    <meta name="viewport" content="width=device-width,initial-scale=0.35,maximum-scale=0.35,user-scalable=no"/>
     <meta charset="UTF-8">
     <title>PPDG</title>
 </head>
-<body  class="Background" onload="ChangeImagesTwo()">
+<body  class="Background" onload="ChangeImagesOne()">
 <script
         src="https://code.jquery.com/jquery-3.6.0.js"
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
@@ -43,20 +43,29 @@
         </p>
     </article>
 </div>
-    <img alt="" class="LowImages" src="Images/Dancer3.jpg" id="images">
+    <img alt="" class="LowImages" src="Images/Dancer3.jpg" id="images" style="margin: auto">
     <button id="ButtonLeft" onclick="ChangeImagesOne()" class="Button" style="margin-left: 45%" ></button>
-    <button id="ButtonRight" onclick="ChangeImagesTwo()" class="Button" style="margin-left: 5%"></button>
+    <button id="ButtonMidle" onclick="ChangeImagesTwo()" class="Button" style="margin-left: 5%"></button>
+    <button id="ButtonRight" onclick="ChangeImageThree()" class="Button" style="margin-left: 5%"></button>
     <article class="MarginBottom">x</article>
     <script type="text/javascript">
         function ChangeImagesOne(){
                     document.getElementById("images").src = "Images/Dancer4.jpg";
                     document.getElementById("ButtonLeft").style.border = "10px solid black";
-                    document.getElementById("ButtonRight").style.border = "10px solid  #cfdcec";
+                    document.getElementById("ButtonMidle").style.border = "10px solid #969ce6";
+                    document.getElementById("ButtonRight").style.border = "10px solid  #969ce6";
         }
         function ChangeImagesTwo(){
                     document.getElementById("images").src = "Images/Dancer3.jpg";
+            document.getElementById("ButtonLeft").style.border = "10px solid #969ce6";
+            document.getElementById("ButtonMidle").style.border = "10px solid black";
+            document.getElementById("ButtonRight").style.border = "10px solid  #969ce6";
+        }
+        function ChangeImageThree(){
+            document.getElementById("images").src = "Images/Dancer5.jpg";
+            document.getElementById("ButtonLeft").style.border = "10px solid #969ce6";
+            document.getElementById("ButtonMidle").style.border = "10px solid #969ce6";
             document.getElementById("ButtonRight").style.border = "10px solid black";
-            document.getElementById("ButtonLeft").style.border = "10px solid  #cfdcec";
         }
     </script>
 <script type="text/javascript">
